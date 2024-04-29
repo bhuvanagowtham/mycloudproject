@@ -20,7 +20,7 @@ export default function Login() {
     console.log(formData);
     try {
       const response = await axios.post(
-        "http://65.1.1.33/api/auth/authenticate",
+        "http://65.1.1.33:8080/api/auth/authenticate",
         formData
       );
       console.log(response.data);
