@@ -18,7 +18,7 @@ export default function Register() {
     event.preventDefault();
     try {
       const response = await axios.post(
-        "http://localhost:8080/api/users/createUser",
+        "http://65.1.1.33/api/users/createUser",
         userData
       );
       console.log(response.data);

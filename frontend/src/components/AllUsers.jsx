@@ -15,7 +15,7 @@ export default function UserList() {
         }
 
         const response = await axios.get(
-          "http://localhost:8080/api/users/readUsers",
+          "http://65.1.1.33/api/users/readUsers",
           {
             headers: {
               Authorization: `Bearer ${token}`,
