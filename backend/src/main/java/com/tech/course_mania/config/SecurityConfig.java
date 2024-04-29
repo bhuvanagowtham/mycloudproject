@@ -35,7 +35,7 @@ public class SecurityConfig {
 
         public static final List<String> HEADERS = Arrays.asList("Authorization", "Content-Type");
         public static final List<String> METHODS = Arrays.asList("GET", "POST", "PUT", "DELETE");
-        public static final List<String> ORIGINS = Arrays.asList("http://localhost:3000");
+        public static final List<String> ORIGINS = Arrays.asList("http://65.1.1.33");
 
         @Bean
         public SecurityFilterChain securityFilterChain(HttpSecurity httpSecurity) throws Exception {
